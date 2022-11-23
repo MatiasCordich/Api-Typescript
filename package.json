@@ -1,13 +1,12 @@
 {
   "name": "rest-api",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./src/app.ts",
-    "start": "node ./src/app.ts",
-    "build": "tsc --build"
+    "build": "tsc",
+    "start": "node dist/app.js"
   },
   "keywords": [],
   "author": "",
