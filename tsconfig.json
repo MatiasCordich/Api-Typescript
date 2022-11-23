@@ -3,7 +3,7 @@
     "target": "ES2016",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "module": "esnext",
+    "module": "CommonJS",
     "rootDir": "./src",
     "moduleResolution": "node",
     "types": ["node"],
