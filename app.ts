@@ -1,8 +1,8 @@
 import 'dotenv/config'
 import express from 'express'
 import cors from 'cors'
-import db from './config/mongo'
-import { router } from './routes'
+import db from './src/config/mongo'
+import { router } from './src/routes'
 
 const PORT = process.env.PORT || 8800
 
